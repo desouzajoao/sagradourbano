@@ -277,23 +277,25 @@
         </div>
     </div>
 
-    <main>
-        <!-- Hero Section Cinematográfica -->
-        <header class="relative w-full min-h-[100svh] flex flex-col justify-between items-center p-6 md:p-12 overflow-hidden bg-sagrado-black">
-            <!-- Background Visual Placeholder com Efeito Hero -->
-            <div class="absolute inset-0 img-placeholder z-0 reveal-scale cursor-pointer" onclick="openLightbox('INSIRA AQUI — FOTOGRAFIA HERO PRINCIPAL [MONUMENTALIDADE DO SAGRADO URBANO]')">
-                <div class="p-8 max-w-xl">
-                    <svg class="w-12 h-12 mx-auto mb-4 text-sagrado-red opacity-80" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
-                    <span class="block font-sans text-sm tracking-[0.2em] text-sagrado-white/70">
-                        INSIRA AQUI — [FOTOGRAFIA HERO PRINCIPAL DO PROJETO - MONUMENTALIDADE DO SAGRADO NO ESPAÇO URBANO]
-                    </span>
-                    <span class="block text-[0.65rem] text-sagrado-white/40 mt-2 font-mono">
-                        [CLIQUE PARA REVISAR O PLACEHOLDER NO VISUALIZADOR]
-                    </span>
-                </div>
-                <div class="absolute inset-0 bg-gradient-to-t from-sagrado-black via-sagrado-black/60 to-transparent z-0"></div>
-            </div>
+<!-- Hero Section Cinematográfica -->
+<header class="relative w-full min-h-[100svh] flex flex-col justify-between items-center p-6 md:p-12 overflow-hidden bg-sagrado-black">
 
+    <!-- Background Visual - Fotografia Principal -->
+    <div class="absolute inset-0 z-0 reveal-scale cursor-pointer"
+         onclick="openLightbox('carranca_urias.jpg')">
+
+        <img
+            src="carranca_urias.jpg"
+            alt="Fotografia principal da reportagem Sagrado Urbano"
+            class="w-full h-full object-cover"
+        >
+
+        <div class="absolute inset-0 bg-gradient-to-t from-sagrado-black via-sagrado-black/60 to-transparent z-0"></div>
+    </div>
+
+    <!-- Header Content Container -->
+    <div class="pt-24 md:pt-32 z-10 w-full max-w-7xl mx-auto text-center flex flex-col items-center">
+        
             <!-- Header Content Container -->
             <div class="pt-24 md:pt-32 z-10 w-full max-w-7xl mx-auto text-center flex flex-col items-center">
                 <span class="font-cinzel text-xs md:text-sm uppercase tracking-[0.4em] text-sagrado-gold mb-6 border-b border-sagrado-gold/30 pb-2 reveal-element">
